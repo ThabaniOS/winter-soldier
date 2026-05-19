@@ -1,0 +1,273 @@
+The first point of clarity is that I’m no longer training for a marathon. That’s an old instruction that came from ChatGPT before I moved over to Claude, so remove that from this context. I’m not training for a marathon. I might mention that later, but it’s not relevant for now.
+
+Round 0
+
+1)The Winter Soldier is the version of myself I’m talking about: the person at the end of it, who’s spent three months with fewer distractions, increased focus, and a renewed vigor to succeed—someone who’s made tangible progress over those three months.
+
+And not just progress in terms of fitness. More like: if I say I want to do something, then I do it. If I say I’m interested in doing something, I do it. It’s a person who stops putting things on the shelf for later.
+
+The whole point is to be very intentional, be very present, and live life in the present. Say you’re going to do stuff and do it. That’s what the Winter Soldier does: less time for distractions, more time for focused effort, and effort that is going to take us somewhere.
+
+2\) The pain I’m trying to leave behind is the pain of procrastination: the pain of taking too long to start, the pain of having too many things that I said I’d do that I wouldn’t do, and the fear of regret that not taking this opportunity will come back to bite me in some way.
+
+The fear is that all the things that I want could potentially slip away from me if I do not intentionally make an effort to see some sort of change in my life. Nothing changes if nothing changes, and that’s something that I’m fully aware of.
+
+So: stop putting things off. Go for things. Take the risks. Do the challenges. Do the things that you said you’d do because you’re actually interested in them. Stop living life in your head and live life in reality.
+
+That’s the pain I’m trying to run away from.
+
+3\) The framing of May, June, and July purely stems from how the year started. Every year starts with these ambitious goals, and you like to cut things out and say, “I’m going to change and I’m going to stop doing things,” but I’ve really started the year in my stride, doing the things that I like—maybe just not putting enough time and effort into myself and the things that I want to do.
+
+So instead of forcing that in the early months of the year, when my birthday was around and there were lots of things to do and celebrate, I said, “You know what? I’ll do it in the winter.” Winter is naturally a time where you spend more time indoors, you focus a bit more on things that you want to do, you’ll have more time to just not go out and fewer distractions. The middle of the year makes more sense than the beginning of the year.
+
+And then, on a more quirky note: The Winter Soldier is my favourite movie (or one of my favourite movies), so I just wanted to adopt a character that represents that. Hence I chose the Winter Soldier. It’s been something that’s been stewing for quite some time now.
+
+4\) I’m skipping this question because I can’t think of specific people, but maybe I can just describe character traits.
+
+Okay, I’m not skipping this question. The person I admire is the person who says what he’s going to do, means what he says, believes in what he says, and lives honestly. He understands his capabilities, stops putting things off, takes the time to read, to write, to educate himself, to take care of his body, and to be present. He works towards something that’s a goal bigger than what he can comprehend, and at the same time has that energy just emanate from him.
+
+When he walks into any room, people can see: “Okay, cool. This guy’s switched on. This guy’s telling the truth. This guy knows what he’s talking about. This guy believes what he’s talking about, and this guy’s working towards something.”
+
+Round 1
+
+5\) Personal refers to personal growth in terms of understanding myself better, understanding my trauma, and understanding how my nervous system works. That’s what I would do as personal—personal development. So anything attached to self-help in the traditional sense.
+
+For example, I know the books that I’m interested in reading and why I’m interested in reading them. I know how wound up my nervous system is, so I want to do some central nervous system work and come out with a lot calmer central nervous system. I want to understand the relationship between my cortisol, my stress hormones, and my testosterone. Basically, it’s anything that’s not the other goals.
+
+It’s kind of a roundabout way to say it, but personal refers to mind and spirit more than anything else: taking the time to read, taking the time to be educated, taking the time to write more, to have a clearer mind, and to be more focused. That’s what personal refers to.
+
+6\) I’m thinking not just about one personal habit. I’d like to do more. I want my life to be more tracked, in the sense that I need to write more about what I’m thinking and what I feel, because those artifacts will persist throughout time.
+
+So:  
+1\. Writing more: things that I’ve learned, things that I’ve achieved, how I feel about certain things.  
+2\. Subsequent to that, reading more.  
+3\. Subsequent to that, meditating.
+
+If those habits can stick on a personal level, I feel like they’re habits I’ll then carry on without the need for a challenge. I don’t have to be doing it weekly or daily or whatever, but if I become someone who likes to meditate and I enjoy the process, then it’ll stick and I’ll just be someone who meditates. If I practice reading now, I will always be someone who reads.
+
+So it is about identity creation. I don’t want to do these habits so that they fall off. I’m trying to instill the habit, the practice of doing the habit, so that they stick to my identity and I can continue doing them the same way I go to gym without needing a challenge.
+
+7\) When it comes to ease, it’s doomscrolling. I definitely want to be someone who creates more than they consume, and I do think that’s a low-hanging fruit.
+
+I’ve done it before, where I don’t spend time on social media during the work week, so I know it’s possible. It just takes a bit of willpower and a bit of acceptance that you’re not missing out on much.
+
+Doomscrolling is something that I want to let go of. That’s probably the one thing that I’d want to let go of.
+
+8\) I don’t think I understand this question, but I’d want Sunday to be a day where I plan for the week, if I can get better at planning for the week in written form.
+
+If I can spend 15 minutes on a Sunday looking ahead at the week instead of being on social media. But at the same time, Sunday might be a day where I accept that I will be on social media, so they don’t have to exist in competition with one another.
+
+I do lots of things, so I don’t have a specific answer.
+
+9\) My sleep right now is probably at 60% optimal, coming down from 80 to 85% optimal, purely because I have my own issues. I need to buy a new bed, which I will be doing, so that has nothing to do with the Winter Soldier. My sleep will improve by virtue of getting a new mattress.
+
+I sleep quite well. I sleep through the night. On days when I sleep 7 hours, I wake up feeling fine and I can get through the day. I sleep better when I train, obviously, with my muscles being fatigued and stuff, and I train quite regularly. So I don’t really have issues with sleep. When I’m sleeping well, I sleep very well.
+
+The issue comes from turning 7 hours into 6 and a half hours, into 6 hours, purely because sometimes I stay up watching football, which finishes at 11:00 or midnight, whatever.
+
+I can add the caveat right now that I would like to reap the benefits of sleeping consistently. Apparently you’re supposed to pick a time that you sleep and a time that you wake up and stick to that. I would love to fall into the 11:00 PM to 6:00 AM category, where I’m waking up consistently at 6:00 AM. 6:00 AM gives me enough time to still work out before work, before the commute. It gives me time to do personal work before I need to switch to my actual work. I’d love to fall into that cohort.
+
+But being a sports fan, being a consumer of that sort of media and entertainment, sometimes I will sleep late, and I will accept I have to sleep late because of that.
+
+So I’m someone who sleeps 7 hours, usually never more, and my body clock is fairly consistent. I don’t know if that’s from anxiety, by the way, but usually I can’t sleep in after 7:00 AM. So even if I get home super late or I sleep super late, I’ll rather just sacrifice that day’s worth of sleep (or rather a full night’s sleep) and then catch up later, even though I know that’s not how sleep debt works.
+
+Sleep is not an issue for me. It’s just something I know can be improved.
+
+10\) Just going back to the earlier caveat: I’m no longer in marathon training. I imagine the context of how this question is answered, or the reason the question was asked, was because of the marathon, but no—I’m no longer in marathon training. I will set some fitness goals, and I’m hoping those come in the questions that are later.
+
+Nutrition-wise, I think I eat relatively well. I eat what I want when I want, and that’s because most of the time I eat simple foods, whole foods, lots of protein, complemented by carbs and vegetables. I’ve reduced the amount of processed food I eat by infinite amounts—really brought that down. I have a sweet treat when I want it because I don’t want sweet treats all the time.
+
+I consume a few supplements, and I can list my supplements:  
+\- Creatine  
+\- Whey protein (when I have it)  
+\- I was taking ashwagandha  
+\- A few other stimulants for the mind (I forget the names of the products)
+
+We can do an exploratory session on stimulants. The reason I’m not really on so many supplements now is purely because of cost. I’ve reduced that by quite a bit. I can’t afford to get those supplements right now, but it’s just daily creatine and drinking lots of water.
+
+Every meal has protein in it. But obviously, I can enjoy a night out. I can enjoy alcohol. I can enjoy sweet treats. They don’t affect me because they are exceptions to the rule, and I think the rule is the nutrition is fairly good.
+
+I also don’t want to be the person who tracks their food. I think I can eat quite well throughout the week. I know when I’m eating what, so I’m not really interested in becoming a calorie tracker, purely because of how impractical it is. I have nothing against it—I just don’t want to do it, to be honest.
+
+11\) From a health point of view, no—nothing that can be tested.
+
+I’d love to go do my bloods, and it’s something I can explore, but right now, for the purpose of the Winter Soldier, no. There are no health markers. There are no health markers that I can think of that I could say I want to get tested.
+
+12\) This one is the easiest to answer because The Body Keeps the Score; everyone knows that.
+
+You’re a product of your habits, and I’m a person who spent a lot of time on social media. I doomscroll. I’m on Twitter, TikTok, Instagram, WhatsApp. My job is in social media management, so I’m always on social media, always getting a stream of information into my brain.
+
+I put things off a lot: things that I say I will do, things I want to read, things I’ll come back to. I think being that type of person contributes to the mental load. Obviously, using computer terminology, my RAM usage is very high, my memory usage is very high, and I know that then transmits to other areas of my body, which may not be prevalent or may not appear, but I know very well that they exist.
+
+So what do I want to manage better over these 90 days?  
+\- Cortisol levels  
+\- Sleep  
+\- Testosterone levels  
+\- Calming down my central nervous system by understanding it better
+
+This kind of attaches to personal, or goes back to personal: understanding things like abandonment wounds and toxic shame and all of that stuff, just to understand myself better.
+
+But the stress comes from not giving myself the time to understand these things. I know they exist, so you end up defaulting to distractions. I already understand the relationship between dopamine and pornography consumption and doomscrolling; I’m aware of all of it, but I haven’t set the time out to change it, and that’s the point of this exercise.
+
+13\) This is the time to reset the fitness. I’ll answer question 13 as-is: there is no marathon training block. Yeah, there will be no marathon training block.
+
+14\) This question is more relevant. This is exactly what I want to construct.
+
+The fitness identity is someone who gyms. I’m currently strength training 3 to 4 times a week. I do a push/pull/legs split or an upper/lower split. I’m very comfortable in the gym: progressively overloading, getting much stronger, and knowing when to train which muscle groups isn’t an issue for me.
+
+Strength will be measured purely by setting objective goals. For example:  
+\- I want to bench press 100 kg by the end of The Winter Soldier.  
+\- I want to be doing this weight on this exercise.
+
+So there’ll be strength goals that form part of that fitness identity. Maybe it’s worth, after this, just setting those in stone and saying, “Okay, cool, I want to do this from a strength perspective.”
+
+From a running perspective, I’m going to be a casual runner. I’ll be running to keep fit. I do not want to be unfit. Realistically, if I can have a weekly mileage target that’s very achievable, I’d much rather do that over the 12-week period than train for a race or a marathon. So if I say my goal is to run 10 km a week, I can split that up into two 5Ks or one 10K or whatever, but I just need to get it done. Going for something lower suits me because of the way my body feels and the time that I can commit to it. I’ve done half marathons before and trained for it, and I know how time-consuming it is, so I’m not really trying to do that anymore.
+
+So I think we’ve got:  
+\- Strength goals (clearly defined)  
+\- A running target (based off mileage)
+
+The third aspect will be more of an athletic goal, which I can’t figure out just yet. For example, maybe I need to do one interval training session a week, and it actually doesn’t matter how I perform on it. It’s the fact that it’s something that I don’t currently do. I go to gym a lot, and I do strength training and weightlifting, but I don’t do any plyometrics training. So maybe over the 12-week period, if we consider plyometrics and athletic training, then we construct not workouts, but actionable things I can do that speak to that. That way, every week I’m ticking off: “Okay, cool, you did one athletic session this week. You did one plyometric session this week.”
+
+So I want to introduce something different above the strength training and the running: strength training, running, and then athletic training.
+
+The fourth category is sports: playing a sport. Number one for skill improvement, and then the other one on a competitive level. That includes going to play paddle, playing tennis, playing basketball, playing football, and playing golf. The fourth goal is to say, “Okay, cool. Over the 12-week period, if I say I want to be better at golf after the 12-week period, or the 90-day period, rather, then okay, cool, what am I doing weekly that’s contributing to that?”
+
+That’s how I want to measure the fitness and sports side of things.
+
+15\) My current weekly training volume is a minimum of 3 gym sessions a week: push/pull/legs or upper/lower, plus a full-body workout. That’s the bare minimum.
+
+Every Saturday this year (barring 2 or 3), I’ve been running anywhere between 5 and 10 kilometers on the road.
+
+That’s about it. I haven’t really played a lot of sport this year. I’ve been to the driving range once or twice, and I haven’t played a lot of padel this year.
+
+I don’t want to be doing something 7 days a week, but I can very easily do something 6 days a week if it’s structured to not be too repetitive. For example, one week I could do 3 gym sessions, a boxing class, and a long run. The next week I could do 3 gym sessions, 2 short runs, and maybe a padel game, or padel lessons, something like that.
+
+My life is structured in a way that I go to work, and then I leave work to be active, or I wake up in the morning to do active work and then I go to work. So that’s in my wheelhouse.
+
+16\) Honestly, because of my relationship with myself in the past, I’ve never been the type to take progress photos or look at my body in too much detail. I used to be the person who checks the scale after every session, and then I stopped that.
+
+What I would need is a reason to choose a benchmark. If I should be tracking my weight on the scale every week, it’s something I can commit to because I guess this would be a lot more guided, in terms of why I’m doing what I’m doing.
+
+Measurable benchmarks: I don’t want to attach myself to a running time. I think the easiest things to do will be the benchmarks in the gym. Maybe to set a goal, maybe to progressively improve at the running. I need to think about this a little bit more: what’s worth keeping track of?
+
+I don’t want to be running against the clock from day one. That won’t happen. I’m going to be running just to maintain my fitness, and I want that to be a habit. But at the same time, I’m entering with feeling quite strong in the gym, so what’s a realistic target to set for 90 days? We can canvas that a bit more.
+
+17\) I guess the 90-day financial picture is that I just want to reduce my debt balances by a most realistic amount. That’s it.
+
+Definitely by the end of July, my debt position should be stronger than what it is now. That’s it.
+
+Income is related to other things, not really in the control of the Winter Soldier. Yeah, savings again—I’m happy to just focus on consolidating the debt position, and everything else will follow.
+
+But yeah, it’s the debt position: bringing those down, even if it’s by a small incremental amount. Getting that habit of just putting money aside every month to reduce those debt balances. That’s the most important thing to me.
+
+18\) Currently my income just comes from NB Digital.
+
+By the end of July, it would be great for a raise to have made its first rand. Just for a raise to make its first rand. Whether that rand actually comes to me is not as important as just raise the business being paid by a client or a vendor.
+
+Because raise making money will ultimately result in me making money, so raise makes money and I can do that. But I’m not excluding the possibility of making money from other income streams; just raise making money, the raise projects leading to income, in 90 days. Not impossible, going to be hard, but that would be the ultimate needle mover for me financially.
+
+19\) This is just wasteful expenditure on going out and having fun. I can reduce that quite quickly.
+
+My rent—my rental income is not rental income; my rental expenses are the same. I’m pretty modest with my groceries and my food purchases. Fuel is consistent. I keep track of everything on an Excel sheet anyway.
+
+It’s just the sporadic spending, which obviously is part of life, so I’m not really hard on myself about it. But I know by going out less and doing less of that, I’ll have more money. That’ll be a leakage that’s stopped immediately.
+
+20\) For now, no. We already have the date calculator. I don’t want a habit. I don’t need help with my money; I just need to make more money and get out of debt. That’s it.
+
+21\) I don’t want to compare The Winter Soldier to this. The Winter Soldier has nothing to do with this question, to be honest.
+
+Before I was in debt, I used to put money aside very well. I had money to plan for trips, and I always had a large savings amount that I could really save towards the end of the year and travel.
+
+Right now, if someone asked me to go on a holiday, I wouldn’t be able to do that without accruing more debt. So The Winter Soldier—the long-term version of me—just is back in a savings position and not in a debt position. That’s it.
+
+22\) By the end of July, Reyes has one signed client that has paid an upfront fee for a build and has a contract in place for recurring revenue.
+
+I don’t have pipeline value, but speaking in projects: LionLead is done, Ferreria fresh is implemented, Franco is implemented, and we’re working on getting closer on a few others that may have fallen on the wayside. At least three of the current projects are in the pipeline, generating revenue for the business by the 31st of July.
+
+23\) Lionlead, Ferreira Fresh, Franco Booking System all within 90 days. Must ship and generate revenue.
+
+24\) I’m staying until the end of the year minimum because by then Raiis will be making money, or it will fail and I will need to go back to doing MB Digital full time while looking for another job.
+
+25\) This question relates directly to the upskilling of myself and my product development. As part of developing these habits, one of them has to be career-driven, or something that has a net positive on my career prospects.
+
+By that, I mean:  
+\- I need to do a short course (a 6-week course) and start and finish it.  
+\- I need to do a certification and start and finish it.
+
+I’ve already explored that in another chat, but this is the time to do it with less distractions. With all the effort going into business and career and this growth and development, I need to come out of this 90-day period with a skill that I don’t currently have. There needs to be some sort of certification. It doesn’t have to be the IBM one; it doesn’t have to be that at all.
+
+It could be that I need to learn SQL and spend maybe 3 weeks practicing and then 6 weeks doing a course, or something like that. But definitely, definitely, definitely, at the end of this 90 days, I need to have a tangible certification where I have no excuse but to come home and spend an hour watching a video or reading or something like that, because I know it’s going to actually lead me somewhere.
+
+One of the big contributors to the lack of career development is that it’s very easy to come home and watch TikToks and Reels and spend time on your phone and do everything but go back to learning. I have to at least spend this time learning, and learning in a way that suits me. I can’t go back to formal education in that regard, but I do need to learn the habit of getting home, opening my laptop, doing coursework, doing material, reading, learning something, practicing.
+
+Maybe it’s worth considering (this is not really related to this question) exploring the blockers: what has stopped me from doing it before? I know that I’ve bought courses on Udemy where you watch a few videos, but it’s hard to see those through. Maybe I haven’t been in the right environment to do another Udemy course, or just a straight-up video course.
+
+So maybe the blocker is that I need an interactive learning environment. Is the blocker that I’ve just let my ADHD run rampant and not given it a fair chance? I don’t know. But that’s context worth considering when we decide what I’m going to do and how I’m going to learn.
+
+26\) I think one business skill would be expanding my technical depth as a product developer, product manager/developer. It’s one thing being able to vibe code stuff using Vercel and n8n and all these product-based systems that exist for people like me—non-technical or semi-technical people—but being able to speak the language of a developer a bit better is something that I would prioritize. Understanding all the tools that are available that help developers build and make products—so, expanding my software technical depth.
+
+Secondary to that is getting better at presenting my own work. By presenting my own work, what I mean is speaking confidently when I introduce myself and raise and whatever—speaking confidently in rooms about what I do, what we do, what we’re building.
+
+And secondly, making sure that my LinkedIn is up to date, my CVs are up to date, and that at any given time I’m ready to present myself as this version of myself, if that makes sense. That would be the capability I’d want.
+
+27\) I want to integrate the tool into my daily use.
+
+I’ve tried habit trackers where you set a whole bunch of activities and you open the app every day and tick boxes. That works quite well for me, actually, but they were limited to tracking gym things that I do in the gym.
+
+If I had a dynamic tracking tool that told me essentially, “Here’s the problem I’m trying to solve,” it would be easy to list 100 things that I need to do. You need to read more, you need to sleep better, you need to do more work, you need to make more money, you need to gym more, lift more weights. It’s cool—you can write all of those things down. The reality is that life doesn’t work like that. You don’t just have 100 things to do and then do them. Things need to be organized and prioritized.
+
+I feel like the relationship between knowing what to do and when to do it can be helped with a tool. I would love to open a tool knowing what I need to do and having it reinforced by the tool.
+
+So essentially: okay, cool, I already know I’m in a week where I’m going to gym three times and run 10Ks. But just seeing that, and knowing that next week when I open the tool it’s going to adapt to the fact that I’ve run, it’s going to adapt to the pages that I’ve read in the book, it’s going to adapt to the progress I’m making.
+
+I should be able to give it weekly feedback, and that will also help develop the skill of the recapping and the tracking. If I give the tool feedback saying, “Okay, this week I ran 12Ks instead of 10Ks,” or “This week we already hit the goal that we set for 100KG bench press,” then we can adapt the goals. But I can just open this tool and it’s tailored to me.
+
+I know a tailored-to-me tool is actually not hard to build. I understand the infrastructure. But I don’t want to overcomplicate it and now have to worry about too many databases and where it’s getting all the information. It’s more about: okay, cool, you said you wanted to gym three times this week—have you? Yes, I have. Of course I have. I don’t need the tool to tell me that.
+
+But you said you wanted to do an SQL course. How many hours did you put into doing the SQL course? I might have done one this week. I might have done three. That needs to be logged so that at the end I can see: okay, cool, gymming clearly isn’t that hard. I always do it. But learning and furthering my career—what did I do over these 90 days?
+
+Ultimately, that’s the purpose of the tool. The tool is for a grand review at the end. I don’t expect to be perfect in every regard; that’s impossible. But where am I actually putting my time and my efforts? How much do I care about improving? This will tell us. This will be the empirical, definitive evidence to say where am I actually heading in life.
+
+28\) I will let you interpret answer 27 and see what fits best here. All I will say is that its not going to receive a lot of inputs , I don’t want to be managing it day to day. But maybe if its structured in way where i can give it mass feedback (e.g weekly recaps)
+
+The more I think of it, calendar driven with weekly goals and then inputting weekly feedback to build a log at the end that shows my progress. Like I say, I don’t need a tool. A tool will never know the daily progress we’re making on the raise project. A tool will never know that I didn’t feel like gyming today, but I will definitely gym tomorrow.
+
+I don’t need to be tracking, “Okay, cool, I gymmed for 2 hours on Tuesday.” I just want a list of goals for the week and a way to see how I’m tracking with them.
+
+And then it’s up to me how much I read. It’s up to me how much I learn. It’s up to me how much I gym. What if I want to take a week off? There’s nothing wrong with that. The tool shouldn’t now break because I didn’t go to gym, or because I didn’t log my gym session.
+
+So it’s an accountability tool, but think of the tool as having the mindset of: “Here’s what you need to do, but if you don’t do it, it’s not the tool’s problem. It’s not the tool’s fault.”
+
+And it works both ways, because if I don’t do the things that the tool says, the tool doesn’t benefit, and neither do I. But if I do do the things the tool says, I benefit, and the tool is just the tool.
+
+Minimum weekly. I think weekly is fair, because I can check it on a Sunday and know what I need to do this week. I can keep checking it throughout the week. Things can change.
+
+But the key thing is the following Sunday I must give it feedback to say, "You know what? The tool thinks or the tool mentioned this, but I found that this didn't work. I tried this and it worked." So it must just be able to take that feedback the same way I can just give feedback, and we can modify the tool as it goes.
+
+So I think once a week feedback logging.
+
+30\) Yes, absolutely. I’d love for this to be a tool that, in the long run, the value of creating it is twofold:
+
+1\. It does what the tool was designed to do.  
+2\. By virtue of building something, understanding relational databases, and building on SQL, I benefit from it.
+
+The only caveat is I don’t want managing and using the tool to take up too much time, and setting it up also can’t take too much time. Otherwise, you end up spending too much time perfecting this tool, the 90 days go by, and you end up having no tool, and you’ve haphazardly gone through the exercise.
+
+So yeah, this might be the one where I actually want to do hands-off, or the most simple execution of this. I don’t want to be developing the tool as we go. I’m confident in all the artifacts and the vibe coding skills that I have that I can get something mustered up, but I don’t want to be—if I need to set up a super base table, let it be once-off. If I need to do the architecture and infrastructure, let it be once-off. I don’t want three weeks into May to still be figuring out how to build the tool. That’d be a waste of time.
+
+31\) fully solo
+
+I think my closing remarks on this exercise are that I’m very excited and confident that we can get a tool that functions. I’ll let you guide me on what’s valuable to track and what’s implied.
+
+I already know I don’t want the tool tracking my sleep, tracking my gym, tracking my learning, or tracking my business progress. I do that in my normal life. If we need to do one more architecture deep dive to understand what’s valuable to me, that’s fine, but I don’t need to know in three months how many hours I slept, how many gym sessions I went to, or how many kilometers I ran.
+
+What I would like is:  
+\- A tool to help me get better at SQL programming.  
+\- A tool I can access locally hosted that has a plan of my week ahead.  
+\- A tool that understands my context when I give it feedback, like: “This week my sleep was good,” and can take verbal loggings of qualitative metrics. Not everything has to be quantitative.
+
+So maybe do a criteria exercise with me where we determine what needs to be qualitative, and then what needs to be quantitative. Then beyond that, another session where we say, “Okay, cool. Based off what needs to be quantitative, you’re gonna need five tables and this database.” Then I can actually say, “You know what? I don’t need all of that. Let’s scrap this. Let’s scrap this.”
+
+Let’s get to the bottom of how we want the tool to function, but this is where you must do the executive role to help understand what’s quantitative and what’s qualitative.
+

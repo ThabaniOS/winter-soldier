@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breathe · Sleep</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@200;300&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #0d1117;
+    --mist: #8fa8b8;
+    --glow: #4fc3f7;
+    --pale: #c8dce8;
+    --cloud: rgba(143, 168, 184, 0.12);
+    --inhale: #7ec8e3;
+    --hold: #b3cfe0;
+    --exhale: #4a8fa8;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--ink);
+    color: var(--pale);
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  /* Star field */
+  .stars {
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  }
+  .star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle var(--dur, 4s) ease-in-out infinite var(--delay, 0s);
+    opacity: 0;
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0; }
+    50% { opacity: var(--max-op, 0.6); }
+  }
+
+  /* Ambient gradient bg */
+  .bg-aurora {
+    position: fixed; inset: 0; z-index: 0;
+    background: radial-gradient(ellipse 80% 50% at 20% 80%, rgba(79,195,247,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 60% at 80% 20%, rgba(74,143,168,0.05) 0%, transparent 60%),
+                var(--ink);
+    animation: aurora 20s ease-in-out infinite alternate;
+  }
+  @keyframes aurora {
+    0%   { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(30deg); }
+  }
+
+  /* Layout */
+  .app {
+    position: relative; z-index: 1;
+    height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 0;
+  }
+
+  /* Header */
+  .header {
+    position: fixed; top: 0; left: 0; right: 0;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 36px 20px;
+  }
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem; font-weight: 300; font-style: italic;
+    letter-spacing: 0.08em; color: var(--mist);
+  }
+  .cycle-count {
+    font-size: 0.7rem; letter-spacing: 0.2em; color: var(--mist);
+    text-transform: uppercase; opacity: 0.7;
+  }
+
+  /* Technique selector */
+  .techniques {
+    position: fixed; top: 80px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 6px;
+    background: rgba(13,17,23,0.6);
+    border: 1px solid rgba(143,168,184,0.1);
+    border-radius: 100px;
+    padding: 5px;
+    backdrop-filter: blur(12px);
+  }
+  .tech-btn {
+    background: none; border: none; cursor: pointer;
+    font-family: 'Jost', sans-serif; font-weight: 300;
+    font-size: 0.68rem; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--mist);
+    padding: 7px 16px; border-radius: 100px;
+    transition: all 0.3s ease; white-space: nowrap;
+    opacity: 0.6;
+  }
+  .tech-btn:hover { opacity: 1; }
+  .tech-btn.active {
+    background: rgba(79,195,247,0.12);
+    color: var(--glow); opacity: 1;
+    box-shadow: 0 0 20px rgba(79,195,247,0.1);
+  }
+
+  /* Central orb area */
+  .orb-container {
+    position: relative;
+    width: 280px; height: 280px;
+    display: flex; align-items: center; justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Outer rings */
+  .ring {
+    position: absolute; border-radius: 50%;
+    border: 1px solid rgba(79,195,247,0.08);
+    animation: rotate var(--rot-dur, 30s) linear infinite var(--rot-dir, normal);
+  }
+  .ring-1 { width: 320px; height: 320px; --rot-dur: 40s; }
+  .ring-2 { width: 360px; height: 360px; --rot-dur: 55s; --rot-dir: reverse; border-color: rgba(79,195,247,0.04); }
+  .ring-3 { width: 400px; height: 400px; --rot-dur: 70s; border-color: rgba(79,195,247,0.025); }
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+  /* Glow pulse behind orb */
+  .orb-glow {
+    position: absolute; border-radius: 50%;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(79,195,247,0.15) 0%, transparent 70%);
+    transition: all 0.5s ease;
+  }
+
+  /* Main breathing orb */
+  .orb {
+    position: relative; border-radius: 50%;
+    width: 160px; height: 160px;
+    background: radial-gradient(circle at 35% 35%,
+      rgba(200,220,232,0.18) 0%,
+      rgba(79,195,247,0.08) 40%,
+      rgba(13,17,23,0.4) 100%);
+    border: 1px solid rgba(79,195,247,0.25);
+    box-shadow:
+      0 0 40px rgba(79,195,247,0.08),
+      0 0 80px rgba(79,195,247,0.04),
+      inset 0 1px 0 rgba(255,255,255,0.05);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.5s ease;
+    will-change: transform;
+    overflow: hidden;
+  }
+  .orb::before {
+    content: '';
+    position: absolute; inset: 0; border-radius: 50%;
+    background: radial-gradient(circle at 60% 70%, rgba(79,195,247,0.06) 0%, transparent 60%);
+  }
+  .orb:hover { box-shadow: 0 0 60px rgba(79,195,247,0.15), 0 0 100px rgba(79,195,247,0.06), inset 0 1px 0 rgba(255,255,255,0.05); }
+
+  /* Play icon */
+  .play-icon {
+    position: relative; z-index: 1;
+    color: rgba(200,220,232,0.5);
+    font-size: 1.5rem;
+    transition: opacity 0.4s ease;
+    letter-spacing: 0.05em;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  /* Phase label */
+  .phase-label {
+    position: absolute;
+    bottom: -52px; left: 50%; transform: translateX(-50%);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem; font-weight: 300; font-style: italic;
+    color: var(--pale); letter-spacing: 0.05em;
+    opacity: 0; transition: opacity 0.6s ease;
+    white-space: nowrap;
+  }
+  .phase-label.visible { opacity: 1; }
+
+  /* Timer */
+  .timer {
+    position: absolute;
+    bottom: -88px; left: 50%; transform: translateX(-50%);
+    font-size: 0.7rem; letter-spacing: 0.4em;
+    color: var(--mist); opacity: 0;
+    transition: opacity 0.6s ease; white-space: nowrap;
+  }
+  .timer.visible { opacity: 0.6; }
+
+  /* Progress arc */
+  .progress-svg {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    pointer-events: none;
+  }
+  .progress-track {
+    fill: none; stroke: rgba(79,195,247,0.06);
+    stroke-width: 1.5;
+  }
+  .progress-arc {
+    fill: none; stroke: rgba(79,195,247,0.35);
+    stroke-width: 1.5; stroke-linecap: round;
+    transition: stroke-dashoffset 0.05s linear;
+  }
+
+  /* Bottom info */
+  .bottom-info {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    display: flex; align-items: center; justify-content: center;
+    padding: 28px 36px;
+    gap: 40px;
+  }
+  .info-item {
+    text-align: center;
+  }
+  .info-label {
+    font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--mist); opacity: 0.5; margin-bottom: 4px;
+  }
+  .info-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem; font-weight: 300; color: var(--pale);
+    letter-spacing: 0.05em;
+  }
+
+  /* Stop button */
+  .stop-btn {
+    position: fixed; bottom: 28px; right: 36px;
+    background: none; border: 1px solid rgba(143,168,184,0.15);
+    color: var(--mist); cursor: pointer;
+    font-family: 'Jost', sans-serif; font-weight: 300;
+    font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+    padding: 10px 20px; border-radius: 100px;
+    opacity: 0; pointer-events: none;
+    transition: all 0.4s ease;
+  }
+  .stop-btn.visible { opacity: 1; pointer-events: all; }
+  .stop-btn:hover { background: rgba(143,168,184,0.07); color: var(--pale); }
+
+  /* Phase hint dots */
+  .phase-dots {
+    position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 8px; opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .phase-dots.visible { opacity: 1; }
+  .dot {
+    width: 5px; height: 5px; border-radius: 50%;
+    background: rgba(79,195,247,0.2);
+    transition: all 0.4s ease;
+  }
+  .dot.active { background: rgba(79,195,247,0.7); transform: scale(1.4); }
+  .dot.done { background: rgba(79,195,247,0.4); }
+</style>
+</head>
+<body>
+
+<div class="bg-aurora"></div>
+<div class="stars" id="stars"></div>
+
+<div class="app">
+  <header class="header">
+    <span class="logo">breathe</span>
+    <span class="cycle-count" id="cycleCount"></span>
+  </header>
+
+  <div class="techniques" id="techniques">
+    <button class="tech-btn active" data-tech="478">4-7-8 Sleep</button>
+    <button class="tech-btn" data-tech="box">Box</button>
+    <button class="tech-btn" data-tech="coherent">Coherent</button>
+    <button class="tech-btn" data-tech="calm">Deep Calm</button>
+  </div>
+
+  <div class="orb-container" id="orbContainer">
+    <div class="ring ring-3"></div>
+    <div class="ring ring-2"></div>
+    <div class="ring ring-1"></div>
+
+    <svg class="progress-svg" width="240" height="240" viewBox="0 0 240 240">
+      <circle class="progress-track" cx="120" cy="120" r="118"/>
+      <circle class="progress-arc" id="progressArc" cx="120" cy="120" r="118"
+        stroke-dasharray="741.4" stroke-dashoffset="741.4"/>
+    </svg>
+
+    <div class="orb-glow" id="orbGlow"></div>
+    <div class="orb" id="orb" onclick="startBreathing()">
+      <span class="play-icon" id="playIcon">begin</span>
+    </div>
+
+    <div class="phase-label" id="phaseLabel"></div>
+    <div class="timer" id="timer"></div>
+  </div>
+
+  <div class="phase-dots" id="phaseDots"></div>
+
+  <div class="bottom-info" id="bottomInfo" style="opacity:0.4">
+    <div class="info-item">
+      <div class="info-label">technique</div>
+      <div class="info-value" id="techName">4-7-8</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">effect</div>
+      <div class="info-value" id="techEffect">calms nervous system</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">cycles</div>
+      <div class="info-value" id="techCycles">4 recommended</div>
+    </div>
+  </div>
+
+  <button class="stop-btn" id="stopBtn" onclick="stopBreathing()">end session</button>
+</div>
+
+<script>
+// Stars
+const starsEl = document.getElementById('stars');
+for (let i = 0; i < 120; i++) {
+  const s = document.createElement('div');
+  s.className = 'star';
+  const size = Math.random() * 1.8 + 0.5;
+  s.style.cssText = `
+    width:${size}px; height:${size}px;
+    left:${Math.random()*100}%; top:${Math.random()*100}%;
+    --dur:${3 + Math.random()*6}s;
+    --delay:${Math.random()*8}s;
+    --max-op:${0.2 + Math.random()*0.5};
+  `;
+  starsEl.appendChild(s);
+}
+
+// Techniques
+const TECHNIQUES = {
+  '478': {
+    name: '4-7-8',
+    effect: 'calms nervous system',
+    cycles: '4 recommended',
+    phases: [
+      { label: 'Inhale', duration: 4, color: '#7ec8e3', scale: 1.35 },
+      { label: 'Hold', duration: 7, color: '#b3cfe0', scale: 1.35 },
+      { label: 'Exhale', duration: 8, color: '#4a8fa8', scale: 0.82 },
+    ]
+  },
+  'box': {
+    name: 'Box',
+    effect: 'reduces anxiety',
+    cycles: '4–6 rounds',
+    phases: [
+      { label: 'Inhale', duration: 4, color: '#7ec8e3', scale: 1.35 },
+      { label: 'Hold', duration: 4, color: '#b3cfe0', scale: 1.35 },
+      { label: 'Exhale', duration: 4, color: '#4a8fa8', scale: 0.82 },
+      { label: 'Hold', duration: 4, color: '#b3cfe0', scale: 0.82 },
+    ]
+  },
+  'coherent': {
+    name: 'Coherent',
+    effect: 'balances heart rate',
+    cycles: '5 min session',
+    phases: [
+      { label: 'Inhale', duration: 5, color: '#7ec8e3', scale: 1.3 },
+      { label: 'Exhale', duration: 5, color: '#4a8fa8', scale: 0.82 },
+    ]
+  },
+  'calm': {
+    name: 'Deep Calm',
+    effect: 'activates sleep mode',
+    cycles: '6 recommended',
+    phases: [
+      { label: 'Inhale', duration: 4, color: '#7ec8e3', scale: 1.35 },
+      { label: 'Hold', duration: 2, color: '#b3cfe0', scale: 1.35 },
+      { label: 'Exhale', duration: 6, color: '#4a8fa8', scale: 0.8 },
+      { label: 'Hold', duration: 2, color: '#6a9fb5', scale: 0.8 },
+    ]
+  }
+};
+
+let currentTech = '478';
+let isRunning = false;
+let cycleCount = 0;
+let phaseIndex = 0;
+let timeLeft = 0;
+let animFrame = null;
+let phaseTimeout = null;
+let startTimestamp = null;
+let phaseDuration = 0;
+let phaseStartTime = null;
+
+const orb = document.getElementById('orb');
+const orbGlow = document.getElementById('orbGlow');
+const phaseLabel = document.getElementById('phaseLabel');
+const timerEl = document.getElementById('timer');
+const playIcon = document.getElementById('playIcon');
+const cycleCountEl = document.getElementById('cycleCount');
+const stopBtn = document.getElementById('stopBtn');
+const progressArc = document.getElementById('progressArc');
+const phaseDots = document.getElementById('phaseDots');
+const circumference = 741.4;
+
+// Technique buttons
+document.querySelectorAll('.tech-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (isRunning) return;
+    document.querySelectorAll('.tech-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentTech = btn.dataset.tech;
+    updateTechInfo();
+  });
+});
+
+function updateTechInfo() {
+  const t = TECHNIQUES[currentTech];
+  document.getElementById('techName').textContent = t.name;
+  document.getElementById('techEffect').textContent = t.effect;
+  document.getElementById('techCycles').textContent = t.cycles;
+  buildPhaseDots();
+}
+
+function buildPhaseDots() {
+  phaseDots.innerHTML = '';
+  const phases = TECHNIQUES[currentTech].phases;
+  phases.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot';
+    d.id = `dot-${i}`;
+    phaseDots.appendChild(d);
+  });
+}
+
+buildPhaseDots();
+
+function startBreathing() {
+  if (isRunning) return;
+  isRunning = true;
+  cycleCount = 0;
+  phaseIndex = 0;
+  playIcon.style.opacity = '0';
+  stopBtn.classList.add('visible');
+  phaseDots.classList.add('visible');
+  document.getElementById('bottomInfo').style.opacity = '1';
+  document.getElementById('techniques').style.pointerEvents = 'none';
+  document.getElementById('techniques').style.opacity = '0.3';
+  runPhase();
+}
+
+function stopBreathing() {
+  isRunning = false;
+  cancelAnimationFrame(animFrame);
+  clearTimeout(phaseTimeout);
+  orb.style.transform = 'scale(1)';
+  orb.style.transition = 'transform 1s ease';
+  orbGlow.style.transform = 'scale(1)';
+  orbGlow.style.opacity = '0.5';
+  phaseLabel.classList.remove('visible');
+  timerEl.classList.remove('visible');
+  phaseDots.classList.remove('visible');
+  progressArc.style.strokeDashoffset = circumference;
+  playIcon.style.opacity = '1';
+  stopBtn.classList.remove('visible');
+  cycleCountEl.textContent = cycleCount > 0 ? `${cycleCount} cycle${cycleCount !== 1 ? 's' : ''} complete` : '';
+  document.getElementById('techniques').style.pointerEvents = 'all';
+  document.getElementById('techniques').style.opacity = '1';
+  document.querySelectorAll('.dot').forEach(d => { d.classList.remove('active','done'); });
+}
+
+function runPhase() {
+  if (!isRunning) return;
+  const phases = TECHNIQUES[currentTech].phases;
+  const phase = phases[phaseIndex];
+
+  // Update dots
+  document.querySelectorAll('.dot').forEach((d, i) => {
+    d.classList.remove('active', 'done');
+    if (i === phaseIndex) d.classList.add('active');
+    else if (i < phaseIndex) d.classList.add('done');
+  });
+
+  // Update label
+  phaseLabel.textContent = phase.label;
+  phaseLabel.classList.add('visible');
+  timerEl.classList.add('visible');
+
+  // Animate orb
+  const dur = phase.duration;
+  phaseDuration = dur * 1000;
+  phaseStartTime = performance.now();
+
+  const easing = phase.label === 'Exhale' ? 'cubic-bezier(0.4,0,0.2,1)' :
+                 phase.label === 'Hold' ? 'linear' : 'cubic-bezier(0,0,0.4,1)';
+
+  orb.style.transition = `transform ${dur}s ${easing}, box-shadow 0.5s ease`;
+  orb.style.transform = `scale(${phase.scale})`;
+
+  const glowScale = 0.8 + (phase.scale - 0.8) * 1.4;
+  orbGlow.style.transition = `transform ${dur}s ${easing}, opacity ${dur}s ${easing}`;
+  orbGlow.style.transform = `scale(${glowScale})`;
+  orbGlow.style.opacity = phase.label === 'Exhale' ? '0.3' : '0.9';
+
+  // Arc progress animation
+  animateArc(phaseStartTime, phaseDuration);
+
+  // Countdown
+  animateTimer(dur);
+
+  phaseTimeout = setTimeout(() => {
+    cancelAnimationFrame(animFrame);
+    phaseIndex++;
+    if (phaseIndex >= phases.length) {
+      phaseIndex = 0;
+      cycleCount++;
+      cycleCountEl.textContent = `${cycleCount} cycle${cycleCount !== 1 ? 's' : ''}`;
+    }
+    runPhase();
+  }, dur * 1000);
+}
+
+function animateArc(startTime, totalDuration) {
+  function frame(ts) {
+    if (!isRunning) return;
+    const elapsed = ts - startTime;
+    const progress = Math.min(elapsed / totalDuration, 1);
+    const offset = circumference * (1 - progress);
+    progressArc.style.strokeDashoffset = offset;
+    if (progress < 1) animFrame = requestAnimationFrame(frame);
+  }
+  animFrame = requestAnimationFrame(frame);
+}
+
+function animateTimer(seconds) {
+  let remaining = seconds;
+  timerEl.textContent = remaining;
+  const interval = setInterval(() => {
+    remaining--;
+    if (remaining <= 0 || !isRunning) {
+      clearInterval(interval);
+      timerEl.textContent = '';
+    } else {
+      timerEl.textContent = remaining;
+    }
+  }, 1000);
+}
+</script>
+</body>
+</html>
