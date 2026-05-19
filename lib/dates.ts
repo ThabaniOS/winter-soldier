@@ -37,3 +37,27 @@ export function formatDate(iso: string): string {
 export function formatDateRange(start: string, end: string): string {
   return `${formatDate(start)} — ${formatDate(end)}`
 }
+
+export function formatDateShort(iso: string): string {
+  const [, month, day] = iso.split('-')
+  const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC']
+  return `${parseInt(day)} ${months[parseInt(month) - 1]}`
+}
+
+export function daysSince(iso: string): string {
+  const diff = Math.floor((Date.now() - new Date(iso).getTime()) / (1000 * 60 * 60 * 24))
+  if (diff === 0) return 'today'
+  if (diff === 1) return '1 day ago'
+  return `${diff} days ago`
+}
+
+export function daysIn(startedDate: string): number {
+  return Math.floor((Date.now() - new Date(startedDate).getTime()) / (1000 * 60 * 60 * 24)) + 1
+}
+
+export function currentMonthRange(): { first: string; last: string } {
+  const now = new Date()
+  const first = new Date(now.getFullYear(), now.getMonth(), 1).toISOString().slice(0, 10)
+  const last = new Date(now.getFullYear(), now.getMonth() + 1, 0).toISOString().slice(0, 10)
+  return { first, last }
+}
