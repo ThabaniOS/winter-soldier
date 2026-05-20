@@ -283,7 +283,7 @@ The default landing view. Shows the current TWS week (computed from today's date
 
 Surfaces, top to bottom:
 - Week banner: `WEEK 1 OF 13 · MAY 18 — MAY 24`
-- Identity line: `"I am a man who closes the loop."` (always present, small, dim gray)
+- Identity line: `"Closing The Gap."` (always present, small, dim gray)
 - Bucket cards (Steel Gray surfaces, 10px radius), one per bucket:
   - **STRENGTH** — sessions this week (count) + days since last session
   - **RUNNING** — km this week / 10km floor

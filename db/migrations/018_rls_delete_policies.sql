@@ -1,0 +1,12 @@
+CREATE POLICY "allow_delete" ON weeks FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON strength_targets FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON strength_sessions FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON strength_logs FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON running_logs FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON athletic_sessions FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON sport_sessions FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON meditation_sessions FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON sql_learning_log FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON books_read FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON writing_pieces FOR DELETE USING (true);
+CREATE POLICY "allow_delete" ON phase_markers FOR DELETE USING (true);
