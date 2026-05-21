@@ -58,3 +58,8 @@ a {
 .ghost-action-btn:hover {
   background-color: #1d1d1d;
 }
+
+.score-btn:hover {
+  background-color: #1d1d1d;
+  color: #ffffff;
+}
