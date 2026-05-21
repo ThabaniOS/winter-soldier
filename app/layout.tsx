@@ -13,7 +13,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <nav
+          style={{
+            borderBottom: '1px solid #383838',
+            padding: '16px 32px',
+            display: 'flex',
+            gap: '26px',
+          }}
+        >
+          <a href="/" style={{ color: '#ffffff', letterSpacing: '0.24px' }}>HOME</a>
+          <a href="/log" style={{ color: '#ffffff', letterSpacing: '0.24px' }}>LOG</a>
+          <a href="/breathe" style={{ color: '#ffffff', letterSpacing: '0.24px' }}>BREATHE</a>
+          <a href="/log/history" style={{ color: '#ffffff', letterSpacing: '0.24px' }}>HISTORY</a>
+        </nav>
+        {children}
+      </body>
     </html>
   )
 }

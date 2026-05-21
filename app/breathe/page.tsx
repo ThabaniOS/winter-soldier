@@ -22,7 +22,7 @@ export default async function BreathePage() {
         maxWidth: '1600px',
         margin: '0 auto',
         padding: '32px',
-        height: '100vh',
+        height: 'calc(100vh - 52px)',
         display: 'flex',
         flexDirection: 'column',
         fontFamily:
